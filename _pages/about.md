@@ -1,12 +1,12 @@
 ---
 layout: about
-title: about
+title: index
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: zichen_chen [at] ucsb.edu
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: upper
+  image: zichen.JPG
   image_circular: false # crops the image to make it circular
   address: false  # >
     # <p>555 your office number</p>
