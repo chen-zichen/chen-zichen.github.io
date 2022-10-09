@@ -17,9 +17,9 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi! I am a second-year PhD student in CS Department at the University of California, Santa Barbara. I am interested in machine learning, human-centered AI and federated learning. [Prof. Misha Montoya Sra](https://sites.cs.ucsb.edu/~sra/) is my fantastic advisor.  
+Hi! I am a second-year PhD student in CS Department at the University of California, Santa Barbara. I am interested in `machine learning`, `human-centered AI` and `federated learning`. [Prof. Misha Montoya Sra](https://sites.cs.ucsb.edu/~sra/) is my fantastic advisor.  
 
-I was a research associate at Joint NTU-WeBank Research Centre on Fintech, Singapore before. I was so lucky to work with [Prof. Tan Ah-Hwee](https://sites.google.com/smu.edu.sg/ahtan/home?authuser=0), [Prof. Sinno Jialin Pan](https://personal.ntu.edu.sg/sinnopan/), and [Prof. Han Yu](https://personal.ntu.edu.sg/han.yu/). My previous research inlcudes reinforcement learning, recommender system, and transfer learning.
+I was a research associate at Joint NTU-WeBank Research Centre on Fintech, Singapore before. I was so lucky to work with [Prof. Tan Ah-Hwee](https://sites.google.com/smu.edu.sg/ahtan/home?authuser=0), [Prof. Sinno Jialin Pan](https://personal.ntu.edu.sg/sinnopan/), and [Prof. Han Yu](https://personal.ntu.edu.sg/han.yu/). My previous research inlcudes `reinforcement learning`, recommender system, and transfer learning.
 
 
 
