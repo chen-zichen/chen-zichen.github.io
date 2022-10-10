@@ -14,7 +14,7 @@ profile:
     # <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 Hi! I am a second-year PhD student in CS Department at the University of California, Santa Barbara. I am interested in `machine learning`, `human-centered AI` and `federated learning`. [Prof. Misha Montoya Sra](https://sites.cs.ucsb.edu/~sra/) is my fantastic advisor.  

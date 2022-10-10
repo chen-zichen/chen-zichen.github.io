@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-06-13 08:00:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+I am starting my internship as an applied scientist at [Amazon Alex](https://www.amazon.science/tag/alexa) ER (Entity Resolution) team. 

@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-10-01 08:00:00-0700
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+We won the [Innovative Applications of Artificial Intelligence Award](https://aaai.org/Awards/awards.php) of AAAI.
