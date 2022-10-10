@@ -1,6 +1,6 @@
 ---
 layout: about
-title: index
+title: about
 permalink: /
 subtitle: zichen_chen [at] ucsb.edu
 
