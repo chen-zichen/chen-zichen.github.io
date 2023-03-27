@@ -1,11 +1,11 @@
 ---
 layout: page
 permalink: /news/
-title: News
+title: news
 description: Find the latest updates on my research, publications, and events.
 nav: true
 nav_order: 4
 
-news: true
 ---
 
+{%- include news.html %}
