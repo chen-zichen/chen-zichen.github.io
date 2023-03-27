@@ -7,5 +7,8 @@ nav: true
 nav_order: 4
 
 ---
-
-{%- include news.html %}
+<div class="post">
+    <article>
+        {%- include news.html %}
+    </article>
+</div>
