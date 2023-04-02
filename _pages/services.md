@@ -4,7 +4,7 @@ permalink: /services/
 title: services
 description: 
 nav: True
-nav_order: 5
+nav_order: 3
 ---
 
 `Conference PC Member:`
