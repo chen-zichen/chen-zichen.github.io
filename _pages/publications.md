@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: ** \* ** contributes equally to this work. ** \+ ** the first author is my guided student.
+description: \[*\] contributes equally to this work. \[+\] the first author is my guided student.
 years: [2023,2022,2021,2020,2019]
 nav: true
 nav_order: 2
