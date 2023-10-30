@@ -19,7 +19,8 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hi! I am a third-year PhD student in CS Department at the University of California, Santa Barbara. I am interested in `Explainable AI`, `Trustworthy AI`, `Human-centered AI`, and `Federated Learning`. [Prof. Misha Sra](https://sites.cs.ucsb.edu/~sra/) is my fantastic advisor.  
 
-I'm honored to have received the **Innovation Award** from `AAAI` 2023. I was also a recipient of the UCSB CS Department 2023 Summer Fellowship, `IJCAI` 2023 Travel Award, `AAAI` 2023 Student Scholarship and UCSB CS Department 2021 Academic Excellence Fellowship. Beyond academia, I am a co-founder of `DAOlivia`, a female club in the bay area that supports female communities and female-founded brands.
+I'm honored to have received the `**Innovation Award**` from `AAAI`. I was also a recipient of the UCSB CS Summer Fellowship, `IJCAI` Travel Award, `AAAI` Student Scholarship and UCSB CS Academic Excellence Fellowship. 
+Beyond academia, I am a co-founder of `DAOlivia`, a female club in the bay area that supports female communities and female-founded brands.
 
 I was a research associate at Joint NTU-WeBank Research Centre on Fintech, Singapore before. I was so lucky to work with [Prof. Tan Ah-Hwee](https://sites.google.com/smu.edu.sg/ahtan/home?authuser=0), [Prof. Sinno Jialin Pan](https://personal.ntu.edu.sg/sinnopan/), and [Prof. Han Yu](https://personal.ntu.edu.sg/han.yu/). My previous research inlcudes `reinforcement learning`, recommender system, and transfer learning.
 
