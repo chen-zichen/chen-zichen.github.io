@@ -5,7 +5,7 @@ title: publications
 description: \* contributes equally to this work. \+ the first author is my guided student.
 years: [2024,2023]
 nav: true
-nav_order: 2
+nav_order: 3
 
 ---
 <!-- _pages/publications.md -->
