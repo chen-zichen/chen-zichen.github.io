@@ -5,31 +5,48 @@
                 <div class="row">
                     <div class="col">
                         {% if site.data.profile.portrait_url %}
-                        <!-- When the screen is wider than md, float the portrait on the right -->
+                        <!-- Desktop: float portrait on the right -->
                         <div class="figure float-right ml-4 mb-4 d-none d-md-block">
-                            <img 
-                                src="{{ site.data.profile.portrait_url | relative_url }}" 
-                                class="figure-img img-fluid img-thumbnail" 
+                            <img
+                                src="{{ site.data.profile.portrait_url | relative_url }}"
+                                class="figure-img img-fluid img-thumbnail"
                                 style="height: 200px;"
-                                data-toggle="tooltip" 
-                                data-placement="top" 
+                                data-toggle="tooltip"
+                                data-placement="top"
                                 title="{{ site.data.profile.portrait_caption }}">
                         </div>
                         {% endif %}
 
-                        <div class="d-flex">
-                            <div class="h1 font-weight-normal">
-                                {{ site.data.profile.primary_name }} <small>{{ site.data.profile.secondary_name }}</small>
-                            </div>
+                        <!-- Mobile: horizontal layout with portrait on left -->
+                        <div class="d-flex align-items-center mb-3 d-md-none">
                             {% if site.data.profile.portrait_url %}
-                            <div class="ml-auto d-md-none">
+                            <div class="mr-3 flex-shrink-0">
                                 <a target="_blank" href="{{ site.data.profile.portrait_url | relative_url }}">
-                                    <img src="{{ site.data.profile.portrait_url | relative_url }}" class="rounded-circle" style="height: 120px; width: 120px; object-fit: cover;" alt="Portrait">
+                                    <img src="{{ site.data.profile.portrait_url | relative_url }}"
+                                         class="rounded-circle"
+                                         style="height: 80px; width: 80px; object-fit: cover; border: 3px solid var(--color-border-light); box-shadow: var(--shadow-sm);"
+                                         alt="Portrait">
                                 </a>
                             </div>
                             {% endif %}
+                            <div>
+                                <div class="h3 font-weight-bold mb-1" style="line-height: 1.2;">
+                                    {{ site.data.profile.primary_name }}
+                                </div>
+                                <div class="text-profile-position small" style="line-height: 1.4;">
+                                    {% for position in site.data.profile.positions %}
+                                    {{ position.name }}{% unless forloop.last %}<br/>{% endunless %}
+                                    {% endfor %}
+                                </div>
+                            </div>
                         </div>
-                        <div class="text-profile-position">
+
+                        <!-- Desktop: name -->
+                        <div class="h1 font-weight-normal d-none d-md-block">
+                            {{ site.data.profile.primary_name }} <small>{{ site.data.profile.secondary_name }}</small>
+                        </div>
+
+                        <div class="text-profile-position d-none d-md-block">
                             {% for position in site.data.profile.positions %}
                             {% if position.logo -%}
                             <img src="{{ position.logo | relative_url }}" alt="Logo" class="inline-badge"/>
