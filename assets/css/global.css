@@ -1,0 +1,800 @@
+@charset "utf-8";
+
+/* ============================================
+   墨韵青松 (Ink & Pine) — 当代东方学术美学
+   ============================================ */
+:root {
+    /* Primary Colors - 青松系 */
+    --color-primary: #2e4a34;          /* 深墨绿 - 沉稳雅致 */
+    --color-secondary: #5A7A61;        /* 松石绿 - 优雅过渡 */
+    --color-accent: #D4A574;           /* 琥珀金 - 温暖点睛 */
+    --color-highlight: #B85C4E;        /* 赭石红 - 视觉锚点 */
+
+    /* Background Layers - 层次分明 */
+    --color-bg-main: #F7F5F2;          /* 宣纸白 (带温度) */
+    --color-bg-card: #FEFDFB;          /* 纯净白 (微暖) */
+    --color-bg-accent: #E8EAED;        /* 冷灰 (对比区域) */
+    --color-bg-hover: #EDF2F4;         /* 悬停背景 */
+
+    /* Text Hierarchy - 高对比 */
+    --color-text-primary: #1A1A1A;     /* 近黑 - 对比度 16:1 */
+    --color-text-secondary: #4A5568;   /* 石墨灰 - 对比度 8.59:1 */
+    --color-text-muted: #718096;       /* 中灰 - 对比度 5.32:1 */
+
+    /* Border & Divider - 精致分隔 */
+    --color-border-light: #E2E8F0;     /* 轻盈边框 */
+    --color-border-medium: #CBD5E0;    /* 中度边框 */
+    --color-border-accent: #2e4a34;    /* 强调边框 (主色) */
+
+    /* Shadows - 青松阴影 (带色彩倾向) */
+    --shadow-sm: 0 2px 8px rgba(46, 74, 52, 0.08);
+    --shadow-md: 0 4px 20px rgba(46, 74, 52, 0.12);
+    --shadow-lg: 0 8px 32px rgba(46, 74, 52, 0.16);
+    --shadow-accent: 0 4px 16px rgba(212, 165, 116, 0.25);  /* 琥珀金阴影 */
+
+    /* Spacing - Japanese Rhythm (Optimized) */
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 2.5rem;
+    --space-xl: 4rem;
+    --space-card: 3rem;      /* 卡片间垂直距 */
+    --space-section: 4.5rem;  /* 大section间距 */
+
+    /* Border Radius */
+    --radius-sm: 0.5rem;
+    --radius-md: 0.8rem;
+    --radius-lg: 1.2rem;
+
+    /* Gradients - 渐变系统 */
+    --gradient-primary: linear-gradient(135deg, #2e4a34 0%, #3d5f47 100%);
+    --gradient-accent: linear-gradient(135deg, #D4A574 0%, #E0B886 100%);
+    --gradient-highlight: linear-gradient(135deg, #B85C4E 0%, #C97264 100%);
+    --gradient-card: linear-gradient(180deg, #FEFDFB 0%, #F7F5F2 100%);
+}
+
+body {
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 400;
+    padding-top: 5.0rem;
+    background-color: var(--color-bg-main);
+    color: var(--color-text-primary);
+    line-height: 1.75;
+}
+
+/* ============================================
+   Typography Hierarchy - Japanese Rhythm
+   ============================================ */
+h1, .h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-md);
+    line-height: 1.3;
+}
+
+h2, .h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-sm);
+    line-height: 1.4;
+}
+
+h3, .h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-sm);
+}
+
+h4, .h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+}
+
+h5, .h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+}
+
+h6, .h6 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-xs);
+}
+
+/* ============================================
+   Card Module Styles - 视觉冲击力
+   ============================================ */
+.card {
+    border-radius: var(--radius-md) !important;
+    border: 1px solid var(--color-border-light);
+    background: var(--color-bg-card);
+    box-shadow: var(--shadow-sm);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: var(--space-lg);
+    position: relative;
+    overflow: hidden;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--gradient-primary);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: var(--shadow-lg);
+    /* transform: translateY(-4px); */  /* 移除上浮效果 */
+    border-color: var(--color-primary);
+}
+
+.card:hover::before {
+    opacity: 1;
+}
+
+.card-body {
+    padding: var(--space-lg);
+}
+
+.card-title {
+    color: var(--color-text-primary);
+    font-weight: 600;
+    margin-bottom: var(--space-sm);
+}
+
+.card-text {
+    color: var(--color-text-secondary);
+    line-height: 1.75;
+}
+
+.card-img-overlay {
+    border-radius: var(--radius-md) !important;
+}
+
+.rounded-xl {
+    border-radius: var(--radius-md) !important;
+}
+
+.rounded-xl-bottom {
+    border-bottom-right-radius: var(--radius-md) !important;
+    border-bottom-left-radius: var(--radius-md) !important;
+}
+
+.rounded-xl-top {
+    border-top-left-radius: var(--radius-md) !important;
+    border-top-right-radius: var(--radius-md) !important;
+}
+
+
+/* ============================================
+   Utility Classes
+   ============================================ */
+.no-break {
+    white-space: nowrap;
+}
+
+/* ============================================
+   Publication & Image Elements
+   ============================================ */
+.cover-image {
+    width: 180px;
+    max-height: 120px;
+    border-radius: var(--radius-sm);
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.cover-image:hover {
+    transform: scale(1.02);
+}
+
+.abstract-body {
+    min-height: 100px;
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+}
+
+img.lazy,
+div.lazy {
+    background-image: url('images/loading.gif');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 50px 50px;
+    min-height: 80px;
+    background-color: var(--color-bg-hover);
+}
+
+/* ============================================
+   Typography & Text Elements
+   ============================================ */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-md);
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+.email-text {
+    font-family: Courier, monospace;
+    color: var(--color-text-secondary);
+}
+
+.text-profile-position {
+    font-weight: 400;
+    color: var(--color-text-secondary);
+    font-size: 1.05rem;
+}
+
+.text-profile-bio {
+    font-weight: 400;
+    color: var(--color-text-secondary);
+    line-height: 1.8;
+}
+
+/* ============================================
+   Navigation Bar - 品牌感导航
+   ============================================ */
+.navbar {
+    opacity: 1;
+    background: linear-gradient(180deg,
+        rgba(254, 253, 251, 0.98) 0%,
+        rgba(247, 245, 242, 0.95) 100%) !important;
+    backdrop-filter: blur(12px) saturate(180%);
+    box-shadow: 0 1px 0 var(--color-border-light),
+                0 4px 12px rgba(46, 74, 52, 0.06);
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(90deg,
+        transparent 0%,
+        var(--color-primary) 50%,
+        transparent 100%) 1;
+}
+
+.navbar-brand {
+    color: var(--color-primary) !important;
+    font-weight: 700;
+    font-size: 1.25rem;
+    letter-spacing: -0.02em;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: var(--color-accent) !important;
+    transform: translateY(-1px);
+}
+
+.nav-link {
+    color: var(--color-text-secondary) !important;
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem !important;
+    border-radius: var(--radius-sm);
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background: var(--gradient-accent);
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--color-primary) !important;
+    background-color: var(--color-bg-hover);
+}
+
+.nav-link:hover::after {
+    width: 80%;
+}
+
+/* ============================================
+   Badges & Labels - 视觉记忆点
+   ============================================ */
+.badge {
+    background: var(--gradient-accent);
+    color: white;
+    font-weight: 600;
+    padding: 0.4rem 0.85rem;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-accent);
+    transition: all 0.3s ease;
+    letter-spacing: 0.02em;
+}
+
+.badge:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(212, 165, 116, 0.35);
+}
+
+.badge-primary {
+    background: var(--gradient-primary);
+    color: white;
+}
+
+.badge-highlight {
+    background: var(--gradient-highlight);
+    color: white;
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.85; }
+}
+
+.badge-publication {
+    font-size: 88%;
+    background-color: var(--color-bg-accent);
+    color: var(--color-primary);
+    border: 1.5px solid var(--color-border-medium);
+    font-weight: 600;
+    padding: 0.3rem 0.7rem;
+}
+
+.inline-badge {
+    height: 18px;
+    vertical-align: -15%;
+    margin-right: 4px;
+    line-break: unset;
+}
+
+/* ============================================
+   Portrait & Image Refinement
+   ============================================ */
+.img-thumbnail {
+    border-radius: var(--radius-lg) !important;
+    border: 3px solid var(--color-border-light);
+    box-shadow: var(--shadow-md);
+    transition: all 0.3s ease;
+    padding: 0.25rem;
+    background-color: var(--color-bg-card);
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.02);
+    border-color: var(--color-border-medium);
+    box-shadow: var(--shadow-lg);
+}
+
+.rounded-circle {
+    border: 2px solid var(--color-border-light) !important;
+    box-shadow: var(--shadow-sm);
+}
+
+/* ============================================
+   Contact Icons & Links Refinement
+   ============================================ */
+.fas, .fab {
+    color: var(--color-primary);
+    transition: all 0.2s ease;
+}
+
+a:hover .fas,
+a:hover .fab {
+    color: var(--color-accent);
+    transform: translateY(-1px);
+}
+
+/* Social Links Spacing */
+a.pr-3 {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.35rem 0.75rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: var(--radius-sm);
+    transition: background-color 0.2s ease;
+}
+
+a.pr-3:hover {
+    background-color: var(--color-bg-hover);
+}
+
+/* ============================================
+   Universal Text Enhancement - 全局加粗文字强调
+   ============================================ */
+/* Apply to all strong/b tags across the site */
+strong, b {
+    color: var(--color-primary);
+    font-weight: 600;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.25rem;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+strong:hover, b:hover {
+    background-color: rgba(212, 165, 116, 0.15); /* 琥珀金 15% opacity */
+    color: var(--color-highlight);
+}
+
+/* Special styling for bio section */
+.text-profile-bio strong,
+.text-profile-bio b {
+    /* Inherits from global strong/b styling */
+}
+
+/* ============================================
+   Content Sections Hover Enhancement
+   ============================================ */
+/* News/Announcements hover effects */
+.news-item,
+.announcement-item,
+li.news-item {
+    padding: 0.6rem 0.8rem;
+    margin: 0.5rem 0;
+    border-radius: var(--radius-sm);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.news-item:hover,
+.announcement-item:hover,
+li.news-item:hover {
+    background-color: rgba(46, 74, 52, 0.03);
+    padding-left: 1.2rem;
+    border-left: 3px solid var(--color-primary);
+}
+
+/* Publication list items hover */
+.publication-item,
+.bibliography li {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: var(--radius-md);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid transparent;
+}
+
+.publication-item:hover,
+.bibliography li:hover {
+    background-color: var(--color-bg-card);
+    border-color: var(--color-border-light);
+    box-shadow: var(--shadow-md);
+    transform: translateX(8px);
+}
+
+/* Award/Education list items */
+.education-item,
+.award-item,
+ul.awards li,
+ul.education li {
+    padding: 0.8rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: var(--radius-sm);
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+}
+
+.education-item:hover,
+.award-item:hover,
+ul.awards li:hover,
+ul.education li:hover {
+    background-color: rgba(212, 165, 116, 0.08);
+    border-left-color: var(--color-accent);
+    padding-left: 1.5rem;
+}
+
+/* Code blocks hover */
+code {
+    background-color: var(--color-bg-accent);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.25rem;
+    font-family: 'Monaco', 'Courier New', monospace;
+    font-size: 0.9em;
+    transition: all 0.2s ease;
+}
+
+code:hover {
+    background-color: rgba(46, 74, 52, 0.12);
+    color: var(--color-primary);
+}
+
+/* ============================================
+   Section Cards Hover Enhancement - 大模块悬停
+   ============================================ */
+/* Target the main content section cards (News, Publications, etc.) */
+.my-3.bg-white.shadow-sm.rounded-xl,
+.my-3.p-0.bg-white.shadow-sm.rounded-xl {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid transparent;
+    cursor: default;
+}
+
+.my-3.bg-white.shadow-sm.rounded-xl:hover,
+.my-3.p-0.bg-white.shadow-sm.rounded-xl:hover {
+    /* transform: translateY(-6px); */  /* 移除上浮效果 */
+    box-shadow: var(--shadow-lg) !important;
+    border-color: var(--color-border-light);
+}
+
+/* Add subtle top accent bar on hover */
+.my-3.bg-white.shadow-sm.rounded-xl::before,
+.my-3.p-0.bg-white.shadow-sm.rounded-xl::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--gradient-primary);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    border-top-left-radius: var(--radius-md);
+    border-top-right-radius: var(--radius-md);
+}
+
+.my-3.bg-white.shadow-sm.rounded-xl:hover::before,
+.my-3.p-0.bg-white.shadow-sm.rounded-xl:hover::before {
+    opacity: 1;
+}
+
+/* Make section cards position relative for absolute positioning */
+.my-3.bg-white.shadow-sm.rounded-xl,
+.my-3.p-0.bg-white.shadow-sm.rounded-xl {
+    position: relative;
+    overflow: hidden;
+}
+
+/* ============================================
+   Extended Bio Card - Beyond Research Section
+   ============================================ */
+.extended-bio-section {
+    padding-left: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.extended-bio-header {
+    display: flex;
+    align-items: center;
+    font-size: 1.05rem;
+}
+
+.extended-bio-header i {
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.extended-bio-section:hover .extended-bio-header i {
+    transform: scale(1.15);
+    color: var(--color-primary) !important;
+}
+
+.extended-bio-content {
+    padding-left: 2rem;
+    margin-top: 0.5rem;
+    line-height: 1.8;
+}
+
+/* Divider between sections */
+.extended-bio-section:not(:last-child) {
+    border-bottom: 1px solid var(--color-border-light);
+    padding-bottom: 1.5rem;
+}
+
+/* ============================================
+   Publication Link Icon - 论文链接图标
+   ============================================ */
+.publication-link-icon {
+    font-size: 0.75em;
+    margin-left: 0.5rem;
+    color: var(--color-primary);
+    opacity: 0.6;
+    transition: all 0.3s ease;
+    vertical-align: middle;
+}
+
+.publication-link-icon:hover {
+    opacity: 1;
+    color: var(--color-accent);
+    transform: translateY(-1px);
+    text-decoration: none;
+}
+
+.publication-link-icon i {
+    font-size: 0.9em;
+}
+
+/* ============================================
+   Publication Cards - Clean Layout with Year Badge
+   ============================================ */
+.publication-card {
+    display: flex;
+    padding: var(--space-lg) var(--space-md);
+    position: relative;
+}
+
+.publication-year-badge {
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    margin-right: var(--space-lg);
+    background: var(--gradient-primary);
+    color: white;
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+    box-shadow: var(--shadow-sm);
+}
+
+.publication-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.publication-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-xs);
+    line-height: 1.5;
+}
+
+.publication-authors {
+    font-size: 0.95rem;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-xs);
+    line-height: 1.6;
+}
+
+.publication-venue-line {
+    margin-bottom: var(--space-sm);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.badge-venue {
+    background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+    color: white;
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding: 0.35rem 0.85rem;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-sm);
+}
+
+.badge-oral {
+    background: linear-gradient(135deg, var(--color-accent) 0%, #E0B886 100%);
+    color: white;
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding: 0.35rem 0.85rem;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-sm);
+}
+
+.badge-featured {
+    background: var(--gradient-highlight);
+    color: white;
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding: 0.35rem 0.85rem;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-sm);
+}
+
+.publication-abstract {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    line-height: 1.7;
+    margin-bottom: var(--space-sm);
+    margin-top: var(--space-sm);
+}
+
+.publication-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: var(--space-sm);
+}
+
+.pub-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.4rem 0.85rem;
+    background-color: var(--color-bg-hover);
+    color: var(--color-primary);
+    border-radius: var(--radius-sm);
+    font-size: 0.875rem;
+    font-weight: 500;
+    border: 1px solid var(--color-border-light);
+    text-decoration: none;
+}
+
+.pub-link:hover {
+    background-color: var(--color-primary);
+    color: white;
+    border-color: var(--color-primary);
+    text-decoration: none;
+}
+
+.pub-link i {
+    font-size: 0.9em;
+}
+
+.pub-link-details {
+    background-color: var(--color-primary);
+    color: white;
+    border-color: var(--color-primary);
+    margin-left: auto;
+}
+
+.pub-link-details:hover {
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+    color: white;
+}
+
+/* Mobile View */
+.publication-card-mobile {
+    padding: var(--space-md);
+    position: relative;
+}
+
+.publication-year-badge-mobile {
+    position: absolute;
+    top: var(--space-md);
+    right: var(--space-md);
+    width: 50px;
+    height: 50px;
+    background: var(--gradient-primary);
+    color: white;
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    font-weight: 700;
+    box-shadow: var(--shadow-sm);
+}
+
+.publication-card-mobile .publication-title {
+    padding-right: 60px;
+    font-size: 1.05rem;
+}
+
+.publication-card-mobile .publication-authors {
+    font-size: 0.9rem;
+}
+
+.publication-card-mobile .publication-links {
+    gap: 0.5rem;
+}
+
+.publication-card-mobile .pub-link {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.65rem;
+}
+

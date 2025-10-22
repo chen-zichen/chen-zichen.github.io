@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2022-06-13 08:00:00-0400
 inline: true
 ---

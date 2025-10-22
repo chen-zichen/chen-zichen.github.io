@@ -1,0 +1,41 @@
+{% assign extended_bio = site.data.profile.extended_bio %}
+
+<div class="my-3 p-0 bg-white shadow-sm rounded-xl">
+    <h6 class="border-bottom border-gray p-3 mb-0">
+        <i class="fas fa-user-circle"></i> More About Me
+    </h6>
+    <div class="p-4">
+        <!-- Awards Section -->
+        <div class="extended-bio-section mb-4">
+            <div class="extended-bio-header mb-2">
+                <i class="fas fa-trophy" style="color: var(--color-primary);"></i>
+                <span class="ml-2 font-weight-bold" style="color: var(--color-primary);">Awards & Honors</span>
+            </div>
+            <div class="extended-bio-content text-profile-bio">
+                {{ extended_bio.awards }}
+            </div>
+        </div>
+
+        <!-- Previous Research Section -->
+        <div class="extended-bio-section mb-4">
+            <div class="extended-bio-header mb-2">
+                <i class="fas fa-flask" style="color: var(--color-primary);"></i>
+                <span class="ml-2 font-weight-bold" style="color: var(--color-primary);">Previous Research</span>
+            </div>
+            <div class="extended-bio-content text-profile-bio">
+                {{ extended_bio.previous_research }}
+            </div>
+        </div>
+
+        <!-- Entrepreneurship & Community Section -->
+        <div class="extended-bio-section mb-0">
+            <div class="extended-bio-header mb-2">
+                <i class="fas fa-users" style="color: var(--color-primary);"></i>
+                <span class="ml-2 font-weight-bold" style="color: var(--color-primary);">Entrepreneurship & Community</span>
+            </div>
+            <div class="extended-bio-content text-profile-bio">
+                {{ extended_bio.entrepreneurship_community }}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,122 @@
+{% assign item = include.item %}
+
+<!-- Desktop View -->
+<div class="d-none d-md-block">
+    <div class="publication-card {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
+        <div class="publication-year-badge">{{ item.year }}</div>
+        <div class="publication-content">
+            <h5 class="publication-title">
+                {{ item.title }}
+                {% if item.external_link %}
+                <a href="{{ item.external_link }}" target="_blank" class="publication-link-icon" title="View publication">
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+                {% endif %}
+            </h5>
+
+            <div class="publication-authors">
+                {% include widgets/author_list.html authors=item.authors %}
+            </div>
+
+            <div class="publication-venue-line">
+                {% if item.venue %}
+                <span class="badge badge-venue">{{ item.venue }}</span>
+                {% endif %}
+                {% if item.oral %}
+                <span class="badge badge-oral">Oral</span>
+                {% endif %}
+                {% if item.selected %}
+                <span class="badge badge-featured">Featured</span>
+                {% endif %}
+                <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span>
+            </div>
+
+            {% if item.abstract %}
+            <p class="publication-abstract">{{ item.abstract }}</p>
+            {% endif %}
+
+            {% if item.pdf or item.code or item.page or item.slides or item.video or item.links %}
+            <div class="publication-links">
+                {% if item.pdf %}
+                <a href="{{ item.pdf }}" target="_blank" class="pub-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                {% endif %}
+                {% if item.code %}
+                <a href="{{ item.code }}" target="_blank" class="pub-link"><i class="fab fa-github"></i> Code</a>
+                {% endif %}
+                {% if item.page %}
+                <a href="{{ item.page }}" target="_blank" class="pub-link"><i class="fas fa-link"></i> Project</a>
+                {% endif %}
+                {% if item.slides %}
+                <a href="{{ item.slides }}" target="_blank" class="pub-link"><i class="fas fa-file-powerpoint"></i> Slides</a>
+                {% endif %}
+                {% if item.video %}
+                <a href="{{ item.video }}" target="_blank" class="pub-link"><i class="fas fa-video"></i> Video</a>
+                {% endif %}
+                {% for link in item.links %}
+                {% if link[1].url %}
+                <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}" class="pub-link">{{ link[0] }}</a>
+                {% else %}
+                <a target="_blank" href="{{ link[1] }}" class="pub-link">{{ link[0] }}</a>
+                {% endif %}
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<!-- Mobile View -->
+<div class="d-md-none">
+    <div class="publication-card-mobile {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray {% if include.first %}rounded-xl-top{% endif %} {% if include.last %}rounded-xl-bottom{% endif %}">
+        <div class="publication-year-badge-mobile">{{ item.year }}</div>
+
+        <h5 class="publication-title">
+            {{ item.title }}
+            {% if item.external_link %}
+            <a href="{{ item.external_link }}" target="_blank" class="publication-link-icon" title="View publication">
+                <i class="fas fa-external-link-alt"></i>
+            </a>
+            {% endif %}
+        </h5>
+
+        <div class="publication-authors">
+            {% include widgets/author_list.html authors=item.authors %}
+        </div>
+
+        <div class="publication-venue-line">
+            {% if item.venue %}
+            <span class="badge badge-venue">{{ item.venue }}</span>
+            {% endif %}
+            {% if item.oral %}
+            <span class="badge badge-oral">Oral</span>
+            {% endif %}
+            {% if item.selected %}
+            <span class="badge badge-featured">Featured</span>
+            {% endif %}
+        </div>
+
+        {% if item.abstract %}
+        <p class="publication-abstract">{{ item.abstract }}</p>
+        {% endif %}
+
+        {% if item.pdf or item.code or item.page or item.slides or item.video %}
+        <div class="publication-links">
+            {% if item.pdf %}
+            <a href="{{ item.pdf }}" target="_blank" class="pub-link"><i class="fas fa-file-pdf"></i> PDF</a>
+            {% endif %}
+            {% if item.code %}
+            <a href="{{ item.code }}" target="_blank" class="pub-link"><i class="fab fa-github"></i> Code</a>
+            {% endif %}
+            {% if item.page %}
+            <a href="{{ item.page }}" target="_blank" class="pub-link"><i class="fas fa-link"></i> Project</a>
+            {% endif %}
+            {% if item.slides %}
+            <a href="{{ item.slides }}" target="_blank" class="pub-link"><i class="fas fa-file-powerpoint"></i> Slides</a>
+            {% endif %}
+            {% if item.video %}
+            <a href="{{ item.video }}" target="_blank" class="pub-link"><i class="fas fa-video"></i> Video</a>
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+</div>
