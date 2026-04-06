@@ -3,10 +3,10 @@ secondary_name: ""
 navbar_name: "Zichen Chen"
 
 positions:
-- name: Ph.D. Candidate, Computer Science Department
-- name: University of California, Santa Barbara
+- name: Researcher, Stanford HAI & Digital Economy Lab
+- name: Ph.D. Candidate, UC Santa Barbara
 
-email: "zichen_chen@ucsb.edu"
+email: "zcc@stanford.edu"
 # cv_link: link-to-your-cv-file
 gscholar: X4goIzYAAAAJ
 # github: your_github_id
@@ -20,12 +20,10 @@ linkedin: chenzichen
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Hi! I am a final-year PhD student in CS Department at ucsb. I'm incredibly lucky to be advised by <a href="https://sites.cs.ucsb.edu/~sra/" target="_blank">Prof. Misha Sra</a>, whose support has been invaluable in my research journey.
+    Hi! I am a researcher at <a href="https://hai.stanford.edu/" target="_blank"><strong>Stanford HAI</strong></a> and <a href="https://digitaleconomy.stanford.edu/" target="_blank"><strong>Digital Economy Lab</strong></a>, where I am very fortunate to be mentored by <a href="https://en.wikipedia.org/wiki/Alex_Pentland" target="_blank">Prof. Alex 'Sandy' Pentland</a>.
+    I am also a final-year PhD candidate at <a href="https://www.ucsb.edu/" target="_blank">UC Santa Barbara</a>, advised by <a href="https://sites.cs.ucsb.edu/~sra/" target="_blank">Prof. Misha Sra</a>.
     My research explores how large language and multimodal models can reason, collaborate, and adapt safely in complex environments.
     I work at the intersection of <strong>agentic AI</strong>, <strong>trust and interpretability</strong>, and <strong>data infrastructure</strong> for reasoning models, aiming to make intelligent systems more transparent, efficient, and reliable.
-  </p>
-  <p>
-    I am currently a visiting researcher at <a href="https://hai.stanford.edu/" target="_blank"><strong>Stanford HAI</strong></a> and <a href="https://digitaleconomy.stanford.edu/" target="_blank"><strong>Digital Economy Lab</strong></a>, where I am very fortunate to be mentored by <a href="https://hai.stanford.edu/people/sandy-pentland" target="_blank">Prof. Alex 'Sandy' Pentland</a>.
   </p>
   <p>
     Previously, I was a Student Researcher at <strong>Google</strong>, where I worked on agentic system and reinforcement learning for LLMs.
@@ -38,7 +36,7 @@ short_bio: >-
     4. <strong>Human-AI Co-Reasoning</strong>: enabling safe and adaptive interaction in scientific, creative, and high-stakes settings.
   </p>
   <p>
-    I am open to collaborations and always excited to chat about research ideas. Please feel free to reach out to me at <code>zichen_chen [at] ucsb.edu</code>.
+    I am open to collaborations and always excited to chat about research ideas. Please feel free to reach out to me at <code>zcc [at] stanford.edu</code>.
   </p>
 
 extended_bio:
@@ -49,7 +47,7 @@ extended_bio:
     I received my Master in Computer Science (Research) from Nanyang Technological University (NTU), Singapore. I was so lucky to work with <a href="https://sites.google.com/smu.edu.sg/ahtan/home?authuser=0" target="_blank">Prof. Tan Ah-Hwee</a>, <a href="https://personal.ntu.edu.sg/sinnopan/" target="_blank">Prof. Sinno Jialin Pan</a>, and <a href="https://personal.ntu.edu.sg/han.yu/" target="_blank">Prof. Han Yu</a>. My previous research includes <strong>reinforcement learning, federated learning, and transfer learning</strong>.
 
   entrepreneurship_community: >-
-    Beyond academia, I was a co-founder of <strong>DAOlivia</strong>, a female club in the bay area that supports female communities and female-founded brands. I am currently running a channel exploring the journey from academic research to startup creation (subscribe <a href="https://zcchen.substack.com/" target="_blank">here</a> or <a href="https://x.com/my_cat_can_code" target="_blank">X</a>). I am especially passionate about encouraging women to take a seat at the table, helping to create more spaces for female voices and perspectives in tech and entrepreneurship. If you're interested in being a guest or have any ideas, please don't hesitate to reach out!
+    Beyond academia, I am fully dedicated to building <a href="https://bakeai.inc/" target="_blank"><strong>BakeAI</strong></a>. Our latest project, <a href="https://autolab.moe/" target="_blank"><strong>AutoLab</strong></a>, is an open benchmark arena for evaluating AI agents on real-world engineering tasks — check it out on <a href="https://github.com/autolabhq/autolab" target="_blank">GitHub</a>! I am especially passionate about encouraging women to take a seat at the table, helping to create more spaces for female voices and perspectives in tech and entrepreneurship. If you're interested in what we're building or would like to help in any way, I'd love to hear from you!
 
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
