@@ -18,6 +18,22 @@
                 {% include widgets/author_list.html authors=item.authors %}
             </div>
 
+            {% if item.venues %}
+                {% for v in item.venues %}
+                <div class="publication-venue-line">
+                    <span class="badge badge-venue">{{ v }}</span>
+                    {% if forloop.first %}
+                        {% if item.selected %}
+                        <span class="badge badge-featured">Featured</span>
+                        {% endif %}
+                        <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span>
+                    {% endif %}
+                    {% if forloop.last and item.oral %}
+                    <span class="badge badge-oral">Oral</span>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            {% else %}
             <div class="publication-venue-line">
                 {% if item.venue %}
                 <span class="badge badge-venue">{{ item.venue }}</span>
@@ -30,6 +46,7 @@
                 {% endif %}
                 <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span>
             </div>
+            {% endif %}
 
             {% if item.abstract %}
             <p class="publication-abstract">{{ item.abstract }}</p>
@@ -83,6 +100,19 @@
             {% include widgets/author_list.html authors=item.authors %}
         </div>
 
+        {% if item.venues %}
+            {% for v in item.venues %}
+            <div class="publication-venue-line">
+                <span class="badge badge-venue">{{ v }}</span>
+                {% if forloop.first and item.selected %}
+                <span class="badge badge-featured">Featured</span>
+                {% endif %}
+                {% if forloop.last and item.oral %}
+                <span class="badge badge-oral">Oral</span>
+                {% endif %}
+            </div>
+            {% endfor %}
+        {% else %}
         <div class="publication-venue-line">
             {% if item.venue %}
             <span class="badge badge-venue">{{ item.venue }}</span>
@@ -94,6 +124,7 @@
             <span class="badge badge-featured">Featured</span>
             {% endif %}
         </div>
+        {% endif %}
 
         {% if item.abstract %}
         <p class="publication-abstract">{{ item.abstract }}</p>

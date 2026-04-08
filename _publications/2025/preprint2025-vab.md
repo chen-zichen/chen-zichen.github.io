@@ -4,8 +4,8 @@ authors:
   - VAB Team
 venue: arXiv preprint
 venue_long: arXiv preprint
-year: 2025
-date: 2025-12-15
+year: 2026
+date: 2026-12-15
 
 # Optional fields
 selected: true
