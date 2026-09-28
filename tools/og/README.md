@@ -16,7 +16,7 @@ Run these from the repo root. The page loads Fraunces and Courier Prime from Goo
    python3 -c "from PIL import Image; Image.open('tools/og/og.png').convert('RGB').save('site/assets/img/og.jpg', quality=88, optimize=True, progressive=True, subsampling=0)"
    ```
 
-3. Regenerate the icons (`favicon.svg`, `favicon.ico`, `apple-touch-icon.png`):
+3. Regenerate the icons from the Bake AI bread mascot (`tools/og/bakeai-bread.png`). This writes `favicon.ico`, `favicon-32x32.png`, `icon-192.png`, `icon-512.png` and `apple-touch-icon.png`:
 
    ```bash
    python3 tools/og/make_icons.py
