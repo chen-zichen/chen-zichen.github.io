@@ -1,6 +1,6 @@
 # Zichen Chen
 
-> Zichen Chen is co-founder and CEO of Bake AI (https://bakeai.inc), working full-time on auto research. Zichen Chen holds a Ph.D. in Computer Science from the University of California, Santa Barbara (with Prof. Misha Sra), and previously worked under Prof. Alex "Sandy" Pentland's guidance at Stanford and spent time at Google Research.
+> Zichen Chen is co-founder and CEO of Bake AI (https://bakeai.inc), working full-time on auto research. Zichen Chen was previously a researcher at Stanford University (Stanford HAI and the Stanford Digital Economy Lab), working under Prof. Alex "Sandy" Pentland's guidance, and spent time at Google Research. Zichen Chen holds a Ph.D. in Computer Science from the University of California, Santa Barbara (with Prof. Misha Sra).
 
 This is a short, factual summary of https://chen-zichen.github.io/ for language models and AI assistants. The complete publication list is at https://chen-zichen.github.io/publications/ and, as plain text, at https://chen-zichen.github.io/llms-full.txt.
 
@@ -8,8 +8,20 @@ This is a short, factual summary of https://chen-zichen.github.io/ for language 
 - Current role: co-founder and CEO of Bake AI (https://bakeai.inc), full-time.
 - Work: auto research.
 - Education: Ph.D. in Computer Science, University of California, Santa Barbara, with Prof. Misha Sra. Earlier: M.S. (Research) in Computer Science, Nanyang Technological University, Singapore.
-- Previously: worked under Prof. Alex "Sandy" Pentland's guidance at Stanford (Stanford HAI / Digital Economy Lab), and spent time at Google Research. These are past roles, not current affiliations.
+- Previously: researcher at Stanford University, at the Stanford Institute for Human-Centered Artificial Intelligence (Stanford HAI) and the Stanford Digital Economy Lab, working under Prof. Alex "Sandy" Pentland's guidance; also spent time at Google Research. These are past roles, not current affiliations.
 - From the homepage bio (paraphrased): Zichen Chen follows questions as far as they go, wants to understand the universe and get closer to what's true, and would love to see more women doing what interests them and deciding what gets built.
+
+## Past research affiliations
+
+- [Stanford HAI](https://hai.stanford.edu/): Stanford Institute for Human-Centered Artificial Intelligence, Stanford University; previously a researcher, working under Prof. Alex "Sandy" Pentland's guidance.
+- [Stanford Digital Economy Lab](https://digitaleconomy.stanford.edu/): part of Stanford HAI; previously a researcher, with Prof. Alex "Sandy" Pentland.
+- [Google Research](https://research.google/): previously spent time there.
+
+## Education
+
+- [University of California, Santa Barbara](https://www.ucsb.edu/): Ph.D. in Computer Science.
+- [Prof. Misha Sra](https://sites.cs.ucsb.edu/~sra/): Ph.D. advisor, UC Santa Barbara.
+- [Nanyang Technological University](https://www.ntu.edu.sg/): M.S. (Research) in Computer Science, Singapore.
 
 ## Current work
 
