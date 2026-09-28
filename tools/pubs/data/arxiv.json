@@ -1,0 +1,311 @@
+{
+ "2311.08614v2": {
+  "title": "XplainLLM: A Knowledge-Augmented Dataset for Reliable Grounded Explanations in LLMs",
+  "authors": [
+   "Zichen Chen",
+   "Jianda Chen",
+   "Ambuj Singh",
+   "Misha Sra"
+  ],
+  "published": "2023-11-15",
+  "journal_ref": null,
+  "comment": "Accepted at EMNLP 2024 Main. The dataset and code are available at https://github.com/chen-zichen/XplainLLM_dataset.git"
+ },
+ "2512.06688v1": {
+  "title": "PersonaMem-v2: Towards Personalized Intelligence via Learning Implicit User Personas and Agentic Memory",
+  "authors": [
+   "Bowen Jiang",
+   "Yuan Yuan",
+   "Maohao Shen",
+   "Zhuoqun Hao",
+   "Zhangchen Xu",
+   "Zichen Chen",
+   "Ziyi Liu",
+   "Anvesh Rao Vijjini",
+   "Jiashu He",
+   "Hanchao Yu",
+   "Radha Poovendran",
+   "Gregory Wornell",
+   "Lyle Ungar",
+   "Dan Roth",
+   "Sihao Chen",
+   "Camillo Jose Taylor"
+  ],
+  "published": "2025-12-07",
+  "journal_ref": null,
+  "comment": "Data is available at https://huggingface.co/datasets/bowen-upenn/PersonaMem-v2"
+ },
+ "2605.12684v1": {
+  "title": "Visual Aesthetic Benchmark: Can Frontier Models Judge Beauty?",
+  "authors": [
+   "Yichen Feng",
+   "Yuetai Li",
+   "Chunjiang Liu",
+   "Yuanyuan Chen",
+   "Fengqing Jiang",
+   "Yue Huang",
+   "Hang Hua",
+   "Zhengqing Yuan",
+   "Kaiyuan Zheng",
+   "Luyao Niu",
+   "Bhaskar Ramasubramanian",
+   "Basel Alomair",
+   "Xiangliang Zhang",
+   "Misha Sra",
+   "Zichen Chen",
+   "Radha Poovendran",
+   "Zhangchen Xu"
+  ],
+  "published": "2026-05-12",
+  "journal_ref": null,
+  "comment": "Project page: https://vab.bakelab.ai. Code: https://github.com/BakeLab/Visual-Aesthetic-Benchmark. Dataset: https://huggingface.co/datasets/BakeLab/Visual-Aesthetic-Benchmark"
+ },
+ "2511.17384v2": {
+  "title": "IndustryNav: Exploring Spatial Reasoning of Embodied Agents in Dynamic Industrial Navigation",
+  "authors": [
+   "Yifan Li",
+   "Lichi Li",
+   "Anh Dao",
+   "Xinyu Zhou",
+   "Wenjun Huang",
+   "Tianyi Ma",
+   "Yicheng Qiao",
+   "Zheda Mai",
+   "Daeun Lee",
+   "Zichen Chen",
+   "Pan Wang",
+   "Lehan Yang",
+   "Tianlong Wang",
+   "Zhen Tan",
+   "Sheng Li",
+   "Mohit Bansal",
+   "Yang Ni",
+   "Yu Kong"
+  ],
+  "published": "2025-11-21",
+  "journal_ref": null,
+  "comment": null
+ },
+ "2606.05080v1": {
+  "title": "AutoLab: Can Frontier Models Solve Long-Horizon Auto Research and Engineering Tasks?",
+  "authors": [
+   "Zhangchen Xu",
+   "Junda Chen",
+   "Yue Huang",
+   "Dongfu Jiang",
+   "Jiefeng Chen",
+   "Hang Hua",
+   "Zijian Wu",
+   "Zheyuan Liu",
+   "Zexue He",
+   "Lichi Li",
+   "Shizhe Diao",
+   "Jiaxin Pei",
+   "Jinsung Yoon",
+   "Hao Zhang",
+   "Mengdi Wang",
+   "Radha Poovendran",
+   "Misha Sra",
+   "Alex Pentland",
+   "Zichen Chen"
+  ],
+  "published": "2026-06-03",
+  "journal_ref": null,
+  "comment": "Code: https://github.com/autolabhq/autolab ; Website: https://autolab.moe/"
+ },
+ "2501.18002v1": {
+  "title": "Agentic Workflows for Conversational Human-AI Interaction Design",
+  "authors": [
+   "Arthur Caetano",
+   "Kavya Verma",
+   "Atieh Taheri",
+   "Radha Kumaran",
+   "Zichen Chen",
+   "Jiaao Chen",
+   "Tobias Höllerer",
+   "Misha Sra"
+  ],
+  "published": "2025-01-29",
+  "journal_ref": null,
+  "comment": null
+ },
+ "2510.03194v1": {
+  "title": "CoDA: Agentic Systems for Collaborative Data Visualization",
+  "authors": [
+   "Zichen Chen",
+   "Jiefeng Chen",
+   "Sercan Ö. Arik",
+   "Misha Sra",
+   "Tomas Pfister",
+   "Jinsung Yoon"
+  ],
+  "published": "2025-10-03",
+  "journal_ref": null,
+  "comment": "31 pages, 6 figures, 5 tables"
+ },
+ "2501.16627v1": {
+  "title": "Engaging with AI: How Interface Design Shapes Human-AI Collaboration in High-Stakes Decision-Making",
+  "authors": [
+   "Zichen Chen",
+   "Yunhao Luo",
+   "Misha Sra"
+  ],
+  "published": "2025-01-28",
+  "journal_ref": null,
+  "comment": "36 pages, 6 figures, 6 tables. Preprint version"
+ },
+ "2406.16176v2": {
+  "title": "GraphEval36K: Benchmarking Coding and Reasoning Capabilities of Large Language Models on Graph Datasets",
+  "authors": [
+   "Qiming Wu",
+   "Zichen Chen",
+   "Will Corcoran",
+   "Misha Sra",
+   "Ambuj K. Singh"
+  ],
+  "published": "2024-06-23",
+  "journal_ref": null,
+  "comment": "The first two authors contributed equally to this work. This paper has been accepted by NAACL 2025. GraphEval36K is available at https://grapheval36k.github.io/"
+ },
+ "2303.16537v3": {
+  "title": "LMExplainer: Grounding Knowledge and Explaining Language Models",
+  "authors": [
+   "Zichen Chen",
+   "Jianda Chen",
+   "Yuanyuan Chen",
+   "Han Yu",
+   "Ambuj K Singh",
+   "Misha Sra"
+  ],
+  "published": "2023-03-29",
+  "journal_ref": null,
+  "comment": "25 pages, 10 figures, and 8 tables"
+ },
+ "2502.15865v2": {
+  "title": "Standard Benchmarks Fail -- Auditing LLM Agents in Finance Must Prioritize Risk",
+  "authors": [
+   "Zichen Chen",
+   "Jiaao Chen",
+   "Jianda Chen",
+   "Misha Sra"
+  ],
+  "published": "2025-02-21",
+  "journal_ref": null,
+  "comment": "46 pages, 2 figures, 2 tables"
+ },
+ "2208.05174v6": {
+  "title": "FedOBD: Opportunistic Block Dropout for Efficiently Training Large-scale Neural Networks through Federated Learning",
+  "authors": [
+   "Yuanyuan Chen",
+   "Zichen Chen",
+   "Pengcheng Wu",
+   "Han Yu"
+  ],
+  "published": "2022-08-10",
+  "journal_ref": "The 32nd International Joint Conference on Artificial Intelligence, 2023",
+  "comment": null
+ },
+ "2605.08503v1": {
+  "title": "NARRA-Gym for Evaluating Interactive Narrative Agents",
+  "authors": [
+   "Yue Huang",
+   "Yuchen Ma",
+   "Jiayi Ye",
+   "Wenjie Wang",
+   "Zipeng Ling",
+   "Xingjian Hu",
+   "Yuexing Hao",
+   "Zichen Chen",
+   "Zhangchen Xu",
+   "Yunhong He",
+   "Zhengqing Yuan",
+   "Yujun Zhou",
+   "Kehan Guo",
+   "Chaoran Chen",
+   "Toby Jia-Jun Li",
+   "Stefan Feuerriegel",
+   "Xiangliang Zhang"
+  ],
+  "published": "2026-05-08",
+  "journal_ref": null,
+  "comment": null
+ },
+ "2605.26329v1": {
+  "title": "JobBench: Aligning Agent Work With Human Will",
+  "authors": [
+   "Yuetai Li",
+   "Yichen Feng",
+   "Zhangchen Xu",
+   "Zixian Ma",
+   "Kaiyuan Zheng",
+   "Fengqing Jiang",
+   "Xinghua Sun",
+   "Rulin Shao",
+   "Zichen Chen",
+   "Yue Huang",
+   "Xinyang Han",
+   "Brian Lee",
+   "Kayla Xu",
+   "Shenglai Zeng",
+   "Hang Hua",
+   "Xiangliang Zhang",
+   "Basel Alomair",
+   "Ranjay Krishna",
+   "Luke Zettlemoyer",
+   "Pang Wei Koh",
+   "Bhaskar Ramasubramanian",
+   "Luyao Niu",
+   "Xiang Yue",
+   "Radha Poovendran"
+  ],
+  "published": "2026-05-25",
+  "journal_ref": null,
+  "comment": null
+ },
+ "2603.27771v3": {
+  "title": "Emergent Risks in Generative Multi-Agent Systems",
+  "authors": [
+   "Yue Huang",
+   "Yu Jiang",
+   "Wenjie Wang",
+   "Haomin Zhuang",
+   "Xiaonan Luo",
+   "Yuchen Ma",
+   "Zhangchen Xu",
+   "Zichen Chen",
+   "Nuno Moniz",
+   "Zinan Lin",
+   "Pin-Yu Chen",
+   "Nitesh V Chawla",
+   "Nouha Dziri",
+   "Huan Sun",
+   "Xiangliang Zhang"
+  ],
+  "published": "2026-03-29",
+  "journal_ref": null,
+  "comment": null
+ },
+ "2609.28614v1": {
+  "title": "Reward Hacking Challenges Oversight of Autonomous Research Agents",
+  "authors": [
+   "Yue Huang",
+   "Zhangchen Xu",
+   "Yuchen Ma",
+   "Wenjie Wang",
+   "Zheyuan Liu",
+   "Ziwei Xu",
+   "Pin-Yu Chen",
+   "Michel Galley",
+   "Zinan Lin",
+   "Stefan Feuerriegel",
+   "Radha Poovendran",
+   "Misha Sra",
+   "Alex Pentland",
+   "Xiangliang Zhang",
+   "Zichen Chen"
+  ],
+  "published": "2026-09-23",
+  "journal_ref": null,
+  "comment": null
+ }
+}

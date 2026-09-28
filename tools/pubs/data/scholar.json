@@ -1,0 +1,186 @@
+[
+ {
+  "title": "From tasks to teams: A risk-first evaluation framework for multi-agent llm systems in finance",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:3fE2CSJIrl8C",
+  "authors": "Z Chen, J Chen, J Chen, M Sra",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2026, 38819-38857, 2026",
+  "cites": "10",
+  "year": "2026"
+ },
+ {
+  "title": "AutoLab: Can Frontier Models Solve Long-Horizon Auto Research and Engineering Tasks?",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:mVmsd5A6BfQC",
+  "authors": "Z Xu, J Chen, Y Huang, D Jiang, J Chen, H Hua, Z Wu, Z Liu, Z He, L Li, ...",
+  "venue": "arXiv preprint arXiv:2606.05080, 2026",
+  "cites": "7",
+  "year": "2026"
+ },
+ {
+  "title": "JobBench: Aligning Agent Work With Human Will",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:Wp0gIr-vW9MC",
+  "authors": "Y Li, Y Feng, Z Xu, Z Ma, K Zheng, F Jiang, X Sun, R Shao, Z Chen, ...",
+  "venue": "arXiv preprint arXiv:2605.26329, 2026",
+  "cites": "7",
+  "year": "2026"
+ },
+ {
+  "title": "Visual Aesthetic Benchmark: Can Frontier Models Judge Beauty?",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:aqlVkmm33-oC",
+  "authors": "Y Feng, Y Li, C Liu, Y Chen, F Jiang, Y Huang, H Hua, Z Yuan, K Zheng, ...",
+  "venue": "arXiv preprint arXiv:2605.12684, 2026",
+  "cites": "2",
+  "year": "2026"
+ },
+ {
+  "title": "NARRA-Gym for Evaluating Interactive Narrative Agents",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:9ZlFYXVOiuMC",
+  "authors": "Y Huang, Y Ma, J Ye, W Wang, Z Ling, X Hu, Y Hao, Z Chen, Z Xu, Y He, ...",
+  "venue": "arXiv preprint arXiv:2605.08503, 2026",
+  "cites": "",
+  "year": "2026"
+ },
+ {
+  "title": "CoDA: Agentic systems for collaborative data visualization",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:kNdYIx-mwKoC",
+  "authors": "Z Chen, J Chen, S Arik, M Sra, T Pfister, J Yoon",
+  "venue": "International Conference on Learning Representations 2026, 143276-143307, 2026",
+  "cites": "15",
+  "year": "2026"
+ },
+ {
+  "title": "Emergent Social Intelligence Risks in Generative Multi-Agent Systems",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:M3ejUd6NZC8C",
+  "authors": "Y Huang, Y Jiang, W Wang, H Zhuang, X Luo, Y Ma, Z Xu, Z Chen, ...",
+  "venue": "arXiv preprint arXiv:2603.27771, 2026",
+  "cites": "6",
+  "year": "2026"
+ },
+ {
+  "title": "Personamem-v2: Towards personalized intelligence via learning implicit user personas and agentic memory",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:ULOm3_A8WrAC",
+  "authors": "B Jiang, Y Yuan, M Shen, Z Hao, Z Xu, Z Chen, Z Liu, AR Vijjini, J He, ...",
+  "venue": "arXiv preprint arXiv:2512.06688, 2025",
+  "cites": "93",
+  "year": "2025"
+ },
+ {
+  "title": "Industrynav: Exploring spatial reasoning of embodied agents in dynamic industrial navigation",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:Zph67rFs4hoC",
+  "authors": "Y Li, L Li, A Dao, X Zhou, W Huang, T Ma, Y Qiao, Z Mai, D Lee, Z Chen, ...",
+  "venue": "arXiv preprint arXiv:2511.17384, 2025",
+  "cites": "5",
+  "year": "2025"
+ },
+ {
+  "title": "GraphEval36K: Benchmarking coding and reasoning capabilities of large language models on graph datasets",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:MXK_kJrjxJIC",
+  "authors": "Q Wu, Z Chen, W Corcoran, M Sra, A Singh",
+  "venue": "Findings of the Association for Computational Linguistics: NAACL 2025, 8110-8132, 2025",
+  "cites": "32",
+  "year": "2025"
+ },
+ {
+  "title": "Standard Benchmarks Fail--Auditing LLM Agents in Finance Must Prioritize Risk",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:4TOpqqG69KYC",
+  "authors": "Z Chen, J Chen, J Chen, M Sra",
+  "venue": "arXiv preprint arXiv:2502.15865, 2025",
+  "cites": "29",
+  "year": "2025"
+ },
+ {
+  "title": "Agentic workflows for conversational human-ai interaction design",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:0EnyYjriUFMC",
+  "authors": "A Caetano, K Verma, A Taheri, R Kumaran, Z Chen, J Chen, T Höllerer, ...",
+  "venue": "arXiv preprint arXiv:2501.18002, 2025",
+  "cites": "17",
+  "year": "2025"
+ },
+ {
+  "title": "Engaging with AI: How interface design shapes human-ai collaboration in high-stakes decision-making",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:hqOjcs7Dif8C",
+  "authors": "Z Chen, Y Luo, M Sra",
+  "venue": "arXiv preprint arXiv:2501.16627, 2025",
+  "cites": "27",
+  "year": "2025"
+ },
+ {
+  "title": "State chrono representation for enhancing generalization in reinforcement learning",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:roLk4NBRz8UC",
+  "authors": "J Chen, WZT Ng, Z Chen, S Pan, T Zhang",
+  "venue": "Advances in Neural Information Processing Systems 37, 73309-73336, 2024",
+  "cites": "5",
+  "year": "2024"
+ },
+ {
+  "title": "XplainLLM: A Knowledge-Augmented Dataset for Reliable Grounded Explanations in LLMs",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:5nxA0vEk-isC",
+  "authors": "Z Chen, J Chen, A Singh, M Sra",
+  "venue": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language …, 2023",
+  "cites": "45",
+  "year": "2023"
+ },
+ {
+  "title": "LMExplainer: Grounding Knowledge and Explaining Language Models",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:WF5omc3nYNoC",
+  "authors": "Z Chen, J Chen, Y Chen, H Yu, AK Singh, M Sra",
+  "venue": "arXiv preprint arXiv:2303.16537, 2023",
+  "cites": "28",
+  "year": "2023"
+ },
+ {
+  "title": "Efficient Training of Large-scale Industrial Fault Diagnostic Models through Federated Opportunistic Block Dropout",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:YsMSGLbcyi4C",
+  "authors": "Y Chen*, Z Chen*, S Guo*, Y Zhao, Z Liu, P Wu, C Yang, Z Li, H Yu",
+  "venue": "🏆 Proceedings of the AAAI Conference on Artificial Intelligence, 37(13 …, 2023",
+  "cites": "15",
+  "year": "2023"
+ },
+ {
+  "title": "FedOBD: Opportunistic Block Dropout for Efficiently Training Large-scale Neural Networks through Federated Learning",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:Y0pCki6q_DkC",
+  "authors": "Y Chen*, Z Chen*, P Wu, H Yu",
+  "venue": "Proceedings of the Thirty-Second International Joint Conference on …, 2022",
+  "cites": "39",
+  "year": "2022"
+ },
+ {
+  "title": "Real-time hierarchical map segmentation for coordinating multirobot exploration",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:W7OEmFMy1HYC",
+  "authors": "T Luo, Z Chen, B Subagdja, AH Tan",
+  "venue": "IEEE Access 11, 15680-15692, 2022",
+  "cites": "5",
+  "year": "2022"
+ },
+ {
+  "title": "FLAS: A Platform for Studying Attacks on Federated Learning",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:Tyk-4Ss8FVUC",
+  "authors": "Y Loh, Z Chen, Y Zhao, H Yu",
+  "venue": "International Conference on Human-Computer Interaction, 160-169, 2022",
+  "cites": "2",
+  "year": "2022"
+ },
+ {
+  "title": "A multi-player game for studying federated learning incentive schemes",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:zYLM7Y9cAGgC",
+  "authors": "KL Ng, Z Chen, Z Liu, H Yu, Y Liu, Q Yang",
+  "venue": "Proceedings of the twenty-ninth international conference on international …, 2021",
+  "cites": "76",
+  "year": "2021"
+ },
+ {
+  "title": "A gamified research tool for incentive mechanism design in federated learning",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:IjCSPb-OGe4C",
+  "authors": "Z Chen, Z Liu, KL Ng, H Yu, Y Liu, Q Yang",
+  "venue": "Federated Learning: Privacy and Incentive, 168-175, 2020",
+  "cites": "12",
+  "year": "2020"
+ },
+ {
+  "title": "End-to-end deep reinforcement learning for multi-agent collaborative exploration",
+  "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X4goIzYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=X4goIzYAAAAJ:qjMakFHDy7sC",
+  "authors": "Z Chen, B Subagdja, AH Tan",
+  "venue": "2019 IEEE International Conference on Agents (ICA), 99-102, 2019",
+  "cites": "44",
+  "year": "2019"
+ }
+]
