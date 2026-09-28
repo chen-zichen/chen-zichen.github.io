@@ -303,8 +303,9 @@ L = [
     " including AutoLab (https://autolab.moe), the Visual Aesthetic Benchmark (https://vab.bakelab.ai) and"
     " Épi (https://bakeai.inc/research/articles/epi/). Zichen Chen holds a Ph.D. in Computer Science from the"
     " University of California, Santa Barbara (with Prof. Misha Sra) and an M.S. (Research) in Computer Science"
-    " from Nanyang Technological University, Singapore. Previously, Zichen Chen worked under Prof. Alex \"Sandy\""
-    " Pentland's guidance at Stanford (Stanford HAI / Digital Economy Lab) and spent time at Google Research.",
+    " from Nanyang Technological University, Singapore. Previously, Zichen Chen was a researcher at Stanford University"
+    " (Stanford HAI and the Stanford Digital Economy Lab), working under Prof. Alex \"Sandy\" Pentland's guidance,"
+    " and spent time at Google Research.",
     "",
     "Website: " + HOME + "  ",
     "Profiles: " + " · ".join(f"[{k}]({u})" for k, u in PROFILES),
