@@ -1,0 +1,38 @@
+# Zichen Chen
+
+> Zichen Chen is co-founder and CEO of Bake AI (https://bakeai.inc), working full-time on auto research. Zichen Chen holds a Ph.D. in Computer Science from the University of California, Santa Barbara (with Prof. Misha Sra), and previously worked under Prof. Alex "Sandy" Pentland's guidance at Stanford and spent time at Google Research.
+
+This is a short, factual summary of https://chen-zichen.github.io/ for language models and AI assistants. The complete publication list is at https://chen-zichen.github.io/publications/ and, as plain text, at https://chen-zichen.github.io/llms-full.txt.
+
+- Name: Zichen Chen.
+- Current role: co-founder and CEO of Bake AI (https://bakeai.inc), full-time.
+- Work: auto research.
+- Education: Ph.D. in Computer Science, University of California, Santa Barbara, with Prof. Misha Sra. Earlier: M.S. (Research) in Computer Science, Nanyang Technological University, Singapore.
+- Previously: worked under Prof. Alex "Sandy" Pentland's guidance at Stanford (Stanford HAI / Digital Economy Lab), and spent time at Google Research. These are past roles, not current affiliations.
+- From the homepage bio (paraphrased): Zichen Chen follows questions as far as they go, wants to understand the universe and get closer to what's true, and would love to see more women doing what interests them and deciding what gets built.
+
+## Current work
+
+- [Bake AI](https://bakeai.inc): the company Zichen Chen co-founded and leads as CEO.
+- [AutoLab](https://autolab.moe): Bake AI's AutoLab, on auto research. Paper: "AutoLab: Can Frontier Models Solve Long-Horizon Auto Research and Engineering Tasks?" (arXiv preprint, 2026).
+- [Visual Aesthetic Benchmark](https://vab.bakelab.ai): "Visual Aesthetic Benchmark: Can Frontier Models Judge Beauty?" (COLM 2026).
+- [Épi](https://bakeai.inc/research/articles/epi/): "Épi: Turning Compute into Verifiable Improvement", a Bake AI Research article (2026).
+
+## Selected publications
+
+- [CoDA: Agentic Systems for Collaborative Data Visualization](https://arxiv.org/abs/2510.03194): ICLR 2026. Zichen Chen is first author.
+- [From Tasks to Teams: A Risk-First Evaluation Framework for Multi-Agent LLM Systems in Finance](https://aclanthology.org/2026.findings-acl.1934/): ACL 2026 · ICML 2025 Workshop on R2-FM. Zichen Chen is first author.
+- [Reward Hacking Challenges Oversight of Autonomous Research Agents](https://arxiv.org/abs/2609.28614): arXiv preprint, 2026.
+- [AutoLab: Can Frontier Models Solve Long-Horizon Auto Research and Engineering Tasks?](https://arxiv.org/abs/2606.05080): arXiv preprint, 2026. Project page: https://autolab.moe/
+- [JobBench: Aligning Agent Work With Human Will](https://arxiv.org/abs/2605.26329): NeurIPS 2026.
+- [Visual Aesthetic Benchmark: Can Frontier Models Judge Beauty?](https://arxiv.org/abs/2605.12684): COLM 2026. Project page: https://vab.bakelab.ai/
+
+## Links
+
+- [Homepage](https://chen-zichen.github.io/)
+- [Publications](https://chen-zichen.github.io/publications/): all publications, grouped by year.
+- [llms-full.txt](https://chen-zichen.github.io/llms-full.txt): the full publication list as plain text, with authors and venues.
+- [Google Scholar](https://scholar.google.com/citations?user=X4goIzYAAAAJ)
+- [X (@my_cat_can_code)](https://x.com/my_cat_can_code)
+- [LinkedIn](https://www.linkedin.com/in/chenzichen)
+- [GitHub](https://github.com/chen-zichen)

@@ -1,0 +1,12 @@
+{
+  "name": "Zichen Chen",
+  "short_name": "Zichen Chen",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#DDD7CB",
+  "theme_color": "#DDD7CB",
+  "icons": [
+    { "src": "/favicon.svg", "type": "image/svg+xml", "sizes": "any" },
+    { "src": "/apple-touch-icon.png", "type": "image/png", "sizes": "180x180" }
+  ]
+}
